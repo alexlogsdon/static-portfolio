@@ -7,11 +7,14 @@
         @apply text-3xl md:text-5xl;
         @apply mb-8;
         @apply leading-snug;
+        @apply font-serif;
       }
     h2 {
         @apply text-2xl md:text-4xl;
         @apply mb-3;
         @apply leading-snug;
+        @apply font-serif;
+
     }
     ul {
         @apply list-disc pl-5;

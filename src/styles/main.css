@@ -10,7 +10,7 @@
       }
     h2 {
         @apply text-2xl md:text-4xl;
-        @apply mb-8;
+        @apply mb-3;
         @apply leading-snug;
     }
     ul {
@@ -19,4 +19,7 @@
     p {
         @apply max-w-prose;
       }
+    a {
+        @apply hover:underline;
+    }
   }

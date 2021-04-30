@@ -25,4 +25,12 @@
     a {
         @apply hover:underline;
     }
+    @font-face {
+        font-family: GoudyBookletter1911;
+        font-style: normal;
+        font-weight: 400;
+        src: local(),
+             url(/src/fonts/goudy-bookletter-1911-v10-latin-regular.woff2) format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+             url(/src/fonts/goudy-bookletter-1911-v10-latin-regular.woff) format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      }
   }

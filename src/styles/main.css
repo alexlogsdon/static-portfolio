@@ -4,25 +4,25 @@
 
 @layer base {
     @font-face {
-        font-family: GoudyBookletter1911;
+        font-family: "Goudy Bookletter 1911";
         font-style: normal;
         font-weight: 400;
         src: url(/src/fonts/goudy-bookletter-1911-v10-latin-regular.eot); /* IE9 Compat Modes */
         src: local(),
-             url(/src/fonts/goudy-bookletter-1911-v10-latin-regular.eot?#iefix) format("embedded-opentype"), /* IE6-IE8 */
-             url(/src/fonts/goudy-bookletter-1911-v10-latin-regular.woff2) format("woff2"), /* Super Modern Browsers */
-             url(/src/fonts/goudy-bookletter-1911-v10-latin-regular.woff) format("woff"), /* Modern Browsers */
-             url(/src/fonts/goudy-bookletter-1911-v10-latin-regular.ttf) format("truetype"), /* Safari, Android, iOS */
-             url(/src/fonts/goudy-bookletter-1911-v10-latin-regular.svg#GoudyBookletter1911) format("svg"); /* Legacy iOS */
+             url(../fonts/goudy-bookletter-1911-v10-latin-regular.eot?#iefix) format("embedded-opentype"), /* IE6-IE8 */
+             url(../fonts/goudy-bookletter-1911-v10-latin-regular.woff2) format("woff2"), /* Super Modern Browsers */
+             url(../fonts/goudy-bookletter-1911-v10-latin-regular.woff) format("woff"), /* Modern Browsers */
+             url(../fonts/goudy-bookletter-1911-v10-latin-regular.ttf) format("truetype"), /* Safari, Android, iOS */
+             url(../fonts/goudy-bookletter-1911-v10-latin-regular.svg#GoudyBookletter1911) format("svg"); /* Legacy iOS */
       }
     h1 {
         @apply font-display text-3xl mb-8 leading-snug;
     }
     @screen md {
-          h1 {
-            @apply font-display text-5xl mb-8 leading-snug;
-          }
+      h1 {
+          @apply font-display text-5xl mb-8 leading-snug;
         }
+    }
     h2 {
         @apply font-display text-2xl mb-3 leading-snug;
     }
@@ -30,7 +30,7 @@
       h2{
           @apply font-display text-4xl mb-3 leading-snug;
         }
-      }
+    }
     ul {
         @apply list-disc pl-5;
     }

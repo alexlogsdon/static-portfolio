@@ -16,18 +16,21 @@
              url(/src/fonts/goudy-bookletter-1911-v10-latin-regular.svg#GoudyBookletter1911) format("svg"); /* Legacy iOS */
       }
     h1 {
-        @apply text-3xl md:text-5xl;
-        @apply mb-8;
-        @apply leading-snug;
-        @apply font-display;
-      }
-    h2 {
-        @apply text-2xl md:text-4xl;
-        @apply mb-3;
-        @apply leading-snug;
-        @apply font-display;
-
+        @apply font-display text-3xl mb-8 leading-snug;
     }
+    @screen md {
+          h1 {
+            @apply font-display text-5xl mb-8 leading-snug;
+          }
+        }
+    h2 {
+        @apply font-display text-2xl mb-3 leading-snug;
+    }
+    @screen md {
+      h2{
+          @apply font-display text-4xl mb-3 leading-snug;
+        }
+      }
     ul {
         @apply list-disc pl-5;
     }

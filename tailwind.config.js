@@ -5,14 +5,14 @@ module.exports = {
   },
   purge: [],
   theme: {
+    fontFamily: {
+      'serif': 'GoudyBookletter1911, ui-serif, Georgia, Cambria, Times New Roman, Times, serif',
+     },
     extend: {
       colors: {
         'orange': '#f0460a',
       }
     },
-    fontFamily: {
-      'serif': 'GoudyBookletter1911, ui-serif, Georgia, Cambria, Times New Roman, Times, serif',
-     }
   },
   variants: {},
   plugins: [],

@@ -7,10 +7,10 @@ eleventyNavigation:
   order: 2
 ---
 
+<p class="mt-4">New bio description that's shorter and focuses on key words like: Cognitive psych, Plain language, Education, Information experiences, User/reader focused.</p>
+<br>
 <ul>
      {% for item in contact.items %}
      <li><a href="{{ item.link }}">{{ item.name }}</a></li>
      {% endfor %}
 </ul>
-
-<p class="mt-4">☝️ This page gets its content from <code>src/_data/contact.json</code></p>

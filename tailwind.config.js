@@ -10,7 +10,7 @@ module.exports = {
         'orange': '#f0460a',
       },
       fontFamily: {
-        'display': '"Goudy Bookletter 1911", ui-serif, Georgia, Cambria, Times New Roman, Times, serif',
+        'display': '"Young Serif", ui-serif, Georgia, Cambria, Times New Roman, Times, serif',
       },
     },
   },

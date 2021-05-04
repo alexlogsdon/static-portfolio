@@ -1,5 +1,5 @@
 <nav class="flex items-center justify-between flex-wrap py-4">
-  <a href="/" class="font-semibold text-xl tracking-loose">Alex Logsdon</a>
+  <a href="/" class="text-gray-700 font-semibold text-xl tracking-loose">Alex Logsdon</a>
 
   {% set navPages = collections.all | eleventyNavigation %}
   <ul>
@@ -8,8 +8,8 @@
         <a
          href="{{ entry.url }}"
          class="text-sm rounded ml-4 inline-block
-         {{'text-orange' if entry.url in page.url
-         else 'text-gray-700 hover:text-gray-900'}}">
+         {{'text-indigo-400' if entry.url in page.url
+         else 'text-gray-700 hover:text-indigo-400'}}">
          {{ entry.title }}
        </a>
       </li>

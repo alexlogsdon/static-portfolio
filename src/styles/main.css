@@ -15,32 +15,30 @@
              url(../fonts/youngserif-regular-webfont.ttf) format("truetype"), /* Safari, Android, iOS */
              url(../fonts/youngserif-regular-webfont.svg#GoudyBookletter1911) format("svg"); /* Legacy iOS */
       }
-    h1 {
-        @apply font-display text-4xl mb-8 leading-snug;
+    body {
+      @apply bg-gray-50;
+    }
+    article {
+      @apply prose sm:prose-lg mx-auto;
+    }
+    a {
+      @apply: text-indigo-500;
+      @apply hover:underline text-indigo-500;
+    }
+      h1 {
+        @apply font-display text-3xl mb-4 leading-snug;
     }
     @screen sm {
       h1 {
-          @apply font-display text-6xl mb-8 leading-snug;
+          @apply font-display text-6xl mb-4 leading-snug;
         }
     }
     h2 {
-        @apply text-2xl mb-2 leading-snug;
+        @apply text-xl mb-2 leading-snug;
     }
     @screen sm {
       h2 {
           @apply text-4xl mb-2 leading-snug;
         }
-    }
-    ul {
-        @apply list-disc pl-5;
-      }
-    li {
-        @apply mb-3;    
-      }
-    p {
-        @apply max-w-prose;
-      }
-    a {
-        @apply hover:underline text-indigo-500;
     }
   }

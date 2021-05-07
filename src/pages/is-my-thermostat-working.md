@@ -9,10 +9,6 @@ If your room's temperature feels wrong, you don't have to get professional help 
 
 ![Diagram of the thermostat with labeled controls. The screen is in the center. It displays the clock on the left and the temperature on the right. To the left of the screen are 3 stacked buttons: Set, Hold, and Run (from top to bottom). To the right of the screen are up and down arrow buttons. A switch on the bottom left has 3 options: Heat, Off, and Cool (from left to right). A switch on the bottom right controls the fan. It has 2 options: Auto and On (from left to right).](/img/thermostat-diagram.png)
 
-![](../img/exhibit-diagram.png)
-
-<img src="../img/thermostat-diagram.png">
-
 ## Check if the display is working
 
 - If it's blank, change the batteries.
